@@ -108,7 +108,7 @@ opacity: 0.7;
     text-align: center;
     padding-top: 50px;
 }
-/*Estilização do Footer*/
+/*Estilizacao do Footer*/
 footer{
     text-align: center;
     margin: 0 auto;
@@ -118,5 +118,168 @@ footer{
 .copyright{
     color: white;
     font-size: 12px;
+    margin: 20px;
+}
+/*--------------------------------Cardapio--------------------------------*/
+.titulo-Cardapio{
+    list-style: "🍕";
+    text-align: center;
+    clear: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 20PX 0 30PX 0;
+    width: 10%;
+}
+.sobre-titulo{
+  font-weight: lighter; 
+  font-size: medium;
+  text-align: center;
+}
+/*--------------------------------Portuguesa--------------------------------*/
+.ul1{
+    width: 330;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid  rgb(253, 236, 0) 5px;
+    margin: 20px;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.ul1:hover{
+    transform: scale(1.1);
+    color: rgb(245, 21, 10);
+}
+
+.Pizza-1{
+    list-style: none; 
+    text-align: left;
+    margin: 30px;
+    
+    
+}
+.titulo-Portuguesa{
+    font-weight: bold;
+    list-style: none; 
+    font-size: 1.5em;    
+}
+.sub-Portuguesa{
+    list-style: none; 
+    font-weight: lighter; 
+    font-size: x-small;
+    
+}
+.Pizza-Portuguesa{
+    list-style: none; 
+    width: 100px; 
+}
+.preço-portuguesa{
+    
+    list-style: none; 
+    font-weight: bold;
+     font-size: 1.5em;  
+}
+/*--------------------------------mussarela--------------------------------*/
+.ul2{
+    width: 330;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid rgb(253, 236, 0) 5px;
+    margin: 20px;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.ul2:hover{
+    transform: scale(1.1);
+    color: rgb(245, 21, 10);
+}
+
+.Pizza-2{
+    list-style: none; 
+    text-align: left;
+    margin: 30px;
+    
+    
+}
+.titulo-mussarela{
+    font-weight: bold;
+    list-style: none; 
+    font-size: 1.5em;    
+}
+.sub-mussarela{
+    list-style: none; 
+    font-weight: lighter; 
+    font-size: x-small;
+    
+}
+.Pizza-mussarela{
+    list-style: none; 
+    width: 100px; 
+}
+.preço-mussarela{
+    
+    list-style: none; 
+    font-weight: bold;
+     font-size: 1.5em;  
+}
+/*--------------------------------Frango--------------------------------*/
+.ul{
+    width: 330;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid rgb(253, 236, 0) 5px;
+    margin: 20px;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.ul:hover{
+    transform: scale(1.1);
+    color: rgb(245, 21, 10);
+}
+
+.Pizza-3{
+    list-style: none; 
+    text-align: left;
+    margin: 30px;
+    
+    
+}
+.titulo-frango{
+    font-weight: bold;
+    list-style: none; 
+    font-size: 1.5em;    
+}
+.sub-frango{
+    list-style: none; 
+    font-weight: lighter; 
+    font-size: x-small;
+    
+}
+.Pizza-frango{
+    list-style: none; 
+    width: 100px; 
+}
+.preço-frango{
+    
+    list-style: none; 
+    font-weight: bold;
+     font-size: 1.5em;  
+}
+.class-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 20px;
 }
